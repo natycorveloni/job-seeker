@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+    
+.imagem-menu {
+    padding: 5px;
+}
+
+.menu-itens {
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.itens {
+    padding: 5px 20px;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    background-color: beige;
+    color: chocolate; 
+}
+
+.conteiner {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.alerta-roxo {
+    background-color: plum;
+    border: 2px solid purple;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    display: inline-block;
+    font-size: 30px;
+}
